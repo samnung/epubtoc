@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from xml.etree import ElementTree
+import sys
 
 
 def stringMultiply(text, count):
@@ -23,20 +24,19 @@ def addNcxPrefix(name):
 
 class Toc(object):
 	''' Class representing TOC '''
-	def __init__(self):
+
+	def __init__(self, rootEtree = None):
 		super(Toc, self).__init__()
 		self.levels = list()
 
+		if rootEtree is not None:
+			self.parseFromRootNCX(rootEtree)
+
 
 	def parseFromRootNCX(self, etree):
-
 		navmap = etree.find(addNcxPrefix('navMap'))
 		for child in navmap:
-
-			level = TocLevel()
-			level.parseFromNCX(child)
-
-			self.levels.append(level)
+			self.levels.append(TocLevel(child))
 
 	def toXHTML(self):
 
@@ -57,11 +57,15 @@ class Toc(object):
 
 class TocLevel(object):
 	''' Class representing one TOC level (h1, h2, h3, ...) '''
-	def __init__(self):
+	def __init__(self, etree = None):
 		super(TocLevel, self).__init__()
 		self.text = ''
 		self.href = ''
 		self.subLevels = list()
+
+		if etree is not None:
+			self.parseFromNCX(etree)
+
 
 	def parseFromNCX(self, etreeElement):
 
@@ -75,9 +79,7 @@ class TocLevel(object):
 
 		for navpoint in navpoints:
 
-			new = TocLevel()
-			new.parseFromNCX(navpoint)
-			self.addSubLevel(new)
+			self.addSubLevel(TocLevel(navpoint))
 
 
 	def toXHTML(self, parent):
@@ -106,20 +108,34 @@ class TocLevel(object):
 
 
 
+if __name__ == '__main__':
+
+
+	if len(sys.argv) is not 2:
+		print('usage ncx2xhtml.py <file.ncx>', file=sys.stderr)
+		sys.exit(0)
+
+	else:
+		try:
+			document = ElementTree.parse(sys.argv[1])
+		except FileNotFoundError:
+			print("error when opening file `{}'".format(sys.argv[1]), file=sys.stderr)
+			sys.exit(1)
+
+
+
+
+	toc = Toc(document.getroot())
+
+	xhtml = toc.toXHTML()
+
+	print(ElementTree.tostring(xhtml, encoding='unicode'))
 
 
 
 
 
-document = ElementTree.parse('toc.ncx')
 
-toc = Toc()
-toc.parseFromRootNCX(document.getroot())
-
-
-xhtml = toc.toXHTML()
-
-print(ElementTree.tostring(xhtml, encoding='unicode'))
 
 
 
