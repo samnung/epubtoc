@@ -104,8 +104,8 @@ class TocLevel(object):
 if __name__ == '__main__':
 
 
-	if len(sys.argv) is not 2:
-		print('usage ncx2xhtml.py <file.ncx>', file=sys.stderr)
+	if len(sys.argv) is not 3:
+		print('usage ncx2xhtml.py <ncx file> <output xhtml file>', file=sys.stderr)
 		sys.exit(0 if len(sys.argv) is 1 else 1)
 
 	else:
@@ -114,6 +114,9 @@ if __name__ == '__main__':
 		except FileNotFoundError:
 			print("error when opening file `{}'".format(sys.argv[1]), file=sys.stderr)
 			sys.exit(1)
+
+		output = open(sys.argv[2], 'w')
+
 
 
 
@@ -139,9 +142,9 @@ if __name__ == '__main__':
 
 
 
-	print(header)
-	print(ElementTree.tostring(xhtml, encoding='unicode'))
-	print(footer)
+	print(header, file=output)
+	print(ElementTree.tostring(xhtml, encoding='unicode'), file=output)
+	print(footer, file=output)
 
 
 
