@@ -1,6 +1,16 @@
 #!/usr/bin/env python3
 from xml.etree import ElementTree
-import sys
+from xml.dom import minidom
+import sys, re
+
+
+header = '''<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops"><head><title></title></head><body>
+<nav epub:type="toc">
+'''
+footer = '''</nav>
+</body></html>
+'''
 
 
 
@@ -123,28 +133,20 @@ if __name__ == '__main__':
 	toc = Toc(document.getroot())
 
 
-	header = '''<?xml version="1.0" encoding="UTF-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
-<head>
-	<title></title>
-</head>
-<body>
-
-<nav epub:type="toc">
-'''
-	footer = '''</nav>
-
-</body>
-</html>
-'''
-
-	xhtml = toc.toXHTML()
 
 
+	# create xhtml string
+	xhtml = header + ElementTree.tostring(toc.toXHTML(), encoding='unicode') + footer
 
-	print(header, file=output)
-	print(ElementTree.tostring(xhtml, encoding='unicode'), file=output)
-	print(footer, file=output)
+	doc = minidom.parseString(xhtml)
+	uglyXML = doc.toprettyxml(indent='  ')
+
+	text_re = re.compile('>\n\s+([^<>\s].*?)\n\s+</', re.DOTALL)
+	prettyXML = text_re.sub('>\g<1></', uglyXML)
+
+
+	print(prettyXML, file=output)
+
 
 
 
