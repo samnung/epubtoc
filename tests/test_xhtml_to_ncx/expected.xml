@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:isbn" content="urn:isbn:978-80-87270-29-5" />
+    <meta name="dtb:depth" content="1" />
+    <meta name="dtb:totalPageCount" content="286" />
+    <meta name="dtb:maxPageNumber" content="286" />
+  </head>
+  <docTitle>
+    <text>Aby vše klapalo</text>
+  </docTitle>
+  <navMap>
+
+    <navPoint id="navPoint-2" playOrder="1">
+      <navLabel>
+        <text>Předmluva</text>
+      </navLabel>
+      <content src="text/chapter-1.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-3" playOrder="2">
+      <navLabel>
+        <text>1 &#124; Úvod: Od Mít vše hotovo k Aby vše klapalo</text>
+      </navLabel>
+      <content src="text/chapter-2.xhtml" />
+      <navPoint id="navPoint-4" playOrder="3">
+        <navLabel>
+          <text>Pro ty, kdo se již s GTD setkali</text>
+        </navLabel>
+        <content src="text/chapter-2.xhtml#chapter_1_sh1" />
+      </navPoint>
+      <navPoint id="navPoint-5" playOrder="4">
+        <navLabel>
+          <text>Pro ty, kdo se s GTD ještě nesetkali</text>
+        </navLabel>
+        <content src="text/chapter-2.xhtml#chapter_1_sh2" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-6" playOrder="5">
+      <navLabel>
+        <text>2 &#124; Fenomén GTD</text>
+      </navLabel>
+      <content src="text/chapter-3.xhtml" />
+      <navPoint id="navPoint-7" playOrder="6">
+        <navLabel>
+          <text>Principy fungují</text>
+        </navLabel>
+        <content src="text/chapter-3.xhtml#chapter-3-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-8" playOrder="7">
+        <navLabel>
+          <text>Problém a potřeba jeho řešení rostou</text>
+        </navLabel>
+        <content src="text/chapter-3.xhtml#chapter-3-sh6" />
+      </navPoint>
+      <navPoint id="navPoint-9" playOrder="8">
+        <navLabel>
+          <text>Dotýká se něčeho základního a intuitivního</text>
+        </navLabel>
+        <content src="text/chapter-3.xhtml#chapter-3-sh10" />
+      </navPoint>
+      <navPoint id="navPoint-10" playOrder="9">
+        <navLabel>
+          <text>Takže co je vlastně GTD?</text>
+        </navLabel>
+        <content src="text/chapter-3.xhtml#chapter-3-sh13" />
+      </navPoint>
+      <navPoint id="navPoint-11" playOrder="10">
+        <navLabel>
+          <text>Tři modely GTD</text>
+        </navLabel>
+        <content src="text/chapter-3.xhtml#chapter-3-sh14" />
+      </navPoint>
+      <navPoint id="navPoint-12" playOrder="11">
+        <navLabel>
+          <text>Mentální kořeny GTD</text>
+        </navLabel>
+        <content src="text/chapter-3.xhtml#chapter-3-sh20" />
+      </navPoint>
+      <navPoint id="navPoint-13" playOrder="12">
+        <navLabel>
+          <text>Logika GTD</text>
+        </navLabel>
+        <content src="text/chapter-3.xhtml#chapter-3-sh24" />
+      </navPoint>
+      <navPoint id="navPoint-14" playOrder="13">
+        <navLabel>
+          <text>Potřeba rozšířené mysli</text>
+        </navLabel>
+        <content src="text/chapter-3.xhtml#chapter-3-sh33" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-15" playOrder="14">
+      <navLabel>
+        <text>3 &#124; Aby vše klapalo – postup</text>
+      </navLabel>
+      <content src="text/chapter-4.xhtml" />
+      <navPoint id="navPoint-16" playOrder="15">
+        <navLabel>
+          <text>Základní postup</text>
+        </navLabel>
+        <content src="text/chapter-4.xhtml#chapter-4-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-17" playOrder="16">
+        <navLabel>
+          <text>Mapa na cestu osobním a pracovním životem</text>
+        </navLabel>
+        <content src="text/chapter-4.xhtml#chapter-4-sh2" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-18" playOrder="17">
+      <navLabel>
+        <text>4 &#124; Základy sebeřízení</text>
+      </navLabel>
+      <content src="text/chapter-5.xhtml" />
+      <navPoint id="navPoint-19" playOrder="18">
+        <navLabel>
+          <text>Matice sebeřízení</text>
+        </navLabel>
+        <content src="text/chapter-5.xhtml#chapter-5-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-20" playOrder="19">
+        <navLabel>
+          <text>Matice je relativní, situační a proměnlivá</text>
+        </navLabel>
+        <content src="text/chapter-5.xhtml#chapter-5-sh10" />
+      </navPoint>
+      <navPoint id="navPoint-21" playOrder="20">
+        <navLabel>
+          <text>Věnujte pozornost tomu, co upoutává vaši pozornost</text>
+        </navLabel>
+        <content src="text/chapter-5.xhtml#chapter-5-sh11" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-22" playOrder="21">
+      <navLabel>
+        <text>5 &#124; Získávání kontroly: Zaznamenávání</text>
+      </navLabel>
+      <content src="text/chapter-6.xhtml" />
+      <navPoint id="navPoint-23" playOrder="22">
+        <navLabel>
+          <text>Osobní úklid mysli</text>
+        </navLabel>
+        <content src="text/chapter-6.xhtml#chapter-6-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-24" playOrder="23">
+        <navLabel>
+          <text>Používání deníku</text>
+        </navLabel>
+        <content src="text/chapter-6.xhtml#chapter-6-sh8" />
+      </navPoint>
+      <navPoint id="navPoint-25" playOrder="24">
+        <navLabel>
+          <text>Brainstorming</text>
+        </navLabel>
+        <content src="text/chapter-6.xhtml#chapter-6-sh9" />
+      </navPoint>
+      <navPoint id="navPoint-26" playOrder="25">
+        <navLabel>
+          <text>Úklid</text>
+        </navLabel>
+        <content src="text/chapter-6.xhtml#chapter-6-sh10" />
+      </navPoint>
+      <navPoint id="navPoint-27" playOrder="26">
+        <navLabel>
+          <text>Skupinové zaznamenávání</text>
+        </navLabel>
+        <content src="text/chapter-6.xhtml#chapter-6-sh11" />
+      </navPoint>
+      <navPoint id="navPoint-28" playOrder="27">
+        <navLabel>
+          <text>Osvojování zaznamenávacího návyku</text>
+        </navLabel>
+        <content src="text/chapter-6.xhtml#chapter-6-sh12" />
+      </navPoint>
+      <navPoint id="navPoint-29" playOrder="28">
+        <navLabel>
+          <text>Zbraň proti vyrušování</text>
+        </navLabel>
+        <content src="text/chapter-6.xhtml#chapter-6-sh13" />
+      </navPoint>
+      <navPoint id="navPoint-30" playOrder="29">
+        <navLabel>
+          <text>Hodnota vytváření záložek</text>
+        </navLabel>
+        <content src="text/chapter-6.xhtml#chapter-6-sh14" />
+      </navPoint>
+      <navPoint id="navPoint-31" playOrder="30">
+        <navLabel>
+          <text>Některé osvědčené postupy pro zaznamenávání</text>
+        </navLabel>
+        <content src="text/chapter-6.xhtml#chapter-6-sh15" />
+      </navPoint>
+      <navPoint id="navPoint-32" playOrder="31">
+        <navLabel>
+          <text>Myslet o věcech, nikoli na ně</text>
+        </navLabel>
+        <content src="text/chapter-6.xhtml#chapter-6-sh25" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-33" playOrder="32">
+      <navLabel>
+        <text>6 &#124; Získávání kontroly: Objasňování</text>
+      </navLabel>
+      <content src="text/chapter-7.xhtml" />
+      <navPoint id="navPoint-34" playOrder="33">
+        <navLabel>
+          <text>Organizační poradce jako terapeut?</text>
+        </navLabel>
+        <content src="text/chapter-7.xhtml#chapter-7-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-35" playOrder="34">
+        <navLabel>
+          <text>Podstata a objem „záležitostí“</text>
+        </navLabel>
+        <content src="text/chapter-7.xhtml#chapter-7-sh2" />
+      </navPoint>
+      <navPoint id="navPoint-36" playOrder="35">
+        <navLabel>
+          <text>Jak řešit „záležitosti“</text>
+        </navLabel>
+        <content src="text/chapter-7.xhtml#chapter-7-sh3" />
+      </navPoint>
+      <navPoint id="navPoint-37" playOrder="36">
+        <navLabel>
+          <text>Klíč k prázdné vstupní přihrádce</text>
+        </navLabel>
+        <content src="text/chapter-7.xhtml#chapter-7-sh5" />
+      </navPoint>
+      <navPoint id="navPoint-38" playOrder="37">
+        <navLabel>
+          <text>Kritické otázky, které je třeba zodpovědět</text>
+        </navLabel>
+        <content src="text/chapter-7.xhtml#chapter-7-sh6" />
+      </navPoint>
+      <navPoint id="navPoint-39" playOrder="38">
+        <navLabel>
+          <text>Síla základního procesu myšlení</text>
+        </navLabel>
+        <content src="text/chapter-7.xhtml#chapter-7-sh15" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-40" playOrder="39">
+      <navLabel>
+        <text>7 &#124; Získávání kontroly: Organizování</text>
+      </navLabel>
+      <content src="text/chapter-8.xhtml" />
+      <navPoint id="navPoint-41" playOrder="40">
+        <navLabel>
+          <text>Co znamená mít ve věcech pořádek</text>
+        </navLabel>
+        <content src="text/chapter-8.xhtml#chapter-8-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-42" playOrder="41">
+        <navLabel>
+          <text>Význam předchází uspořádávání</text>
+        </navLabel>
+        <content src="text/chapter-8.xhtml#chapter-8-sh2" />
+      </navPoint>
+      <navPoint id="navPoint-43" playOrder="42">
+        <navLabel>
+          <text>Sofistikované systémy pro přízemnosti</text>
+        </navLabel>
+        <content src="text/chapter-8.xhtml#chapter-8-sh3" />
+      </navPoint>
+      <navPoint id="navPoint-44" playOrder="43">
+        <navLabel>
+          <text>Organizační kategorie</text>
+        </navLabel>
+        <content src="text/chapter-8.xhtml#chapter-8-sh4" />
+      </navPoint>
+      <navPoint id="navPoint-45" playOrder="44">
+        <navLabel>
+          <text>Co nejjednodušší, ale o nic jednodušší…</text>
+        </navLabel>
+        <content src="text/chapter-8.xhtml#chapter-8-sh32" />
+      </navPoint>
+      <navPoint id="navPoint-46" playOrder="45">
+        <navLabel>
+          <text>Organizování podle schématu</text>
+        </navLabel>
+        <content src="text/chapter-8.xhtml#chapter-8-sh33" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-47" playOrder="46">
+      <navLabel>
+        <text>8 &#124; Získávání kontroly: Reflexe</text>
+      </navLabel>
+      <content src="text/chapter-9.xhtml" />
+      <navPoint id="navPoint-48" playOrder="47">
+        <navLabel>
+          <text>Systém, který se nepoužívá, není systém</text>
+        </navLabel>
+        <content src="text/chapter-9.xhtml#chapter-9-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-49" playOrder="48">
+        <navLabel>
+          <text>Dvojitá úloha reflexe</text>
+        </navLabel>
+        <content src="text/chapter-9.xhtml#chapter-9-sh2" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-50" playOrder="49">
+      <navLabel>
+        <text>9 &#124; Získávání kontroly: Převést slova v činy</text>
+      </navLabel>
+      <content src="text/chapter-10.xhtml" />
+      <navPoint id="navPoint-51" playOrder="50">
+        <navLabel>
+          <text>Jaký je další krok?</text>
+        </navLabel>
+        <content src="text/chapter-10.xhtml#chapter-10-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-52" playOrder="51">
+        <navLabel>
+          <text>Když víte, že příštím krokem bude…</text>
+        </navLabel>
+        <content src="text/chapter-10.xhtml#chapter-10-sh3" />
+      </navPoint>
+      <navPoint id="navPoint-53" playOrder="52">
+        <navLabel>
+          <text>Jak obsáhnout všechny faktory spojené s převedením myšlenek v činy</text>
+        </navLabel>
+        <content src="text/chapter-10.xhtml#chapter-10-sh4" />
+      </navPoint>
+      <navPoint id="navPoint-54" playOrder="53">
+        <navLabel>
+          <text>Boj s prioritami</text>
+        </navLabel>
+        <content src="text/chapter-10.xhtml#chapter-10-sh14" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-55" playOrder="54">
+      <navLabel>
+        <text>10 &#124; Jak získat kontrolu: Jak tyto principy použít v životě a v práci</text>
+      </navLabel>
+      <content src="text/chapter-11.xhtml" />
+      <navPoint id="navPoint-56" playOrder="55">
+        <navLabel>
+          <text>Jak dostat Zuzaninu zahrádku pod kontrolu</text>
+        </navLabel>
+        <content src="text/chapter-11.xhtml#chapter-11-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-57" playOrder="56">
+        <navLabel>
+          <text>Robert Tyl se snaží dostat pod kontrolu sám sebe</text>
+        </navLabel>
+        <content src="text/chapter-11.xhtml#chapter-11-sh7" />
+      </navPoint>
+      <navPoint id="navPoint-58" playOrder="57">
+        <navLabel>
+          <text>A co z toho?</text>
+        </navLabel>
+        <content src="text/chapter-11.xhtml#chapter-11-sh13" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-59" playOrder="58">
+      <navLabel>
+        <text>11 &#124; Jak získat správnou perspektivu</text>
+      </navLabel>
+      <content src="text/chapter-12.xhtml" />
+      <navPoint id="navPoint-60" playOrder="59">
+        <navLabel>
+          <text>Jakmile jednou získáte kontrolu, nezastavujte se!</text>
+        </navLabel>
+        <content src="text/chapter-12.xhtml#chapter-12-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-61" playOrder="60">
+        <navLabel>
+          <text>K udržení kontroly potřebujete správnou perspektivu</text>
+        </navLabel>
+        <content src="text/chapter-12.xhtml#chapter-12-sh2" />
+      </navPoint>
+      <navPoint id="navPoint-62" playOrder="61">
+        <navLabel>
+          <text>Jak ovládnout horizonty</text>
+        </navLabel>
+        <content src="text/chapter-12.xhtml#chapter-12-sh3" />
+      </navPoint>
+      <navPoint id="navPoint-63" playOrder="62">
+        <navLabel>
+          <text>Procházet hierarchií shora dolů, nebo zdola nahoru?</text>
+        </navLabel>
+        <content src="text/chapter-12.xhtml#chapter-12-sh4" />
+      </navPoint>
+      <navPoint id="navPoint-64" playOrder="63">
+        <navLabel>
+          <text>Práce s horizonty soustředění</text>
+        </navLabel>
+        <content src="text/chapter-12.xhtml#chapter-12-sh5" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-65" playOrder="64">
+      <navLabel>
+        <text>12 &#124; Jak získat správnou perspektivu na rozjezdové dráze: Další kroky</text>
+      </navLabel>
+      <content src="text/chapter-13.xhtml" />
+      <navPoint id="navPoint-66" playOrder="65">
+        <navLabel>
+          <text>Rozsah</text>
+        </navLabel>
+        <content src="text/chapter-13.xhtml#chapter-13-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-67" playOrder="66">
+        <navLabel>
+          <text>Obvyklá podoba</text>
+        </navLabel>
+        <content src="text/chapter-13.xhtml#chapter-13-sh2" />
+      </navPoint>
+      <navPoint id="navPoint-68" playOrder="67">
+        <navLabel>
+          <text>Jak a kdy se do toho pustit</text>
+        </navLabel>
+        <content src="text/chapter-13.xhtml#chapter-13-sh3" />
+      </navPoint>
+      <navPoint id="navPoint-69" playOrder="68">
+        <navLabel>
+          <text>Rozjezdová dráha a vaše priority</text>
+        </navLabel>
+        <content src="text/chapter-13.xhtml#chapter-13-sh4" />
+      </navPoint>
+      <navPoint id="navPoint-70" playOrder="69">
+        <navLabel>
+          <text>Úroveň činností jako nová hranice</text>
+        </navLabel>
+        <content src="text/chapter-13.xhtml#chapter-13-sh5" />
+      </navPoint>
+      <navPoint id="navPoint-71" playOrder="70">
+        <navLabel>
+          <text>Mystérium přízemnosti</text>
+        </navLabel>
+        <content src="text/chapter-13.xhtml#chapter-13-sh6" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-72" playOrder="71">
+      <navLabel>
+        <text>13 &#124; Jak získat správnou perspektivu ve výšce deseti tisíc stop: Projekty</text>
+      </navLabel>
+      <content src="text/chapter-14.xhtml" />
+      <navPoint id="navPoint-73" playOrder="72">
+        <navLabel>
+          <text>Rozsah</text>
+        </navLabel>
+        <content src="text/chapter-14.xhtml#chapter-14-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-74" playOrder="73">
+        <navLabel>
+          <text>Obvyklá podoba</text>
+        </navLabel>
+        <content src="text/chapter-14.xhtml#chapter-14-sh2" />
+      </navPoint>
+      <navPoint id="navPoint-75" playOrder="74">
+        <navLabel>
+          <text>Jak a kdy se do toho pustit</text>
+        </navLabel>
+        <content src="text/chapter-14.xhtml#chapter-14-sh3" />
+      </navPoint>
+      <navPoint id="navPoint-76" playOrder="75">
+        <navLabel>
+          <text>Síla myšlení na úrovni projektů</text>
+        </navLabel>
+        <content src="text/chapter-14.xhtml#chapter-14-sh4" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-77" playOrder="76">
+      <navLabel>
+        <text>14 &#124; Jak získat správnou perspektivu ve výšce dvaceti tisíc stop: Oblasti zájmu a zodpovědnosti</text>
+      </navLabel>
+      <content src="text/chapter-15.xhtml" />
+      <navPoint id="navPoint-78" playOrder="77">
+        <navLabel>
+          <text>Rozsah</text>
+        </navLabel>
+        <content src="text/chapter-15.xhtml#chapter-15-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-79" playOrder="78">
+        <navLabel>
+          <text>Obvyklá podoba</text>
+        </navLabel>
+        <content src="text/chapter-15.xhtml#chapter-15-sh3" />
+      </navPoint>
+      <navPoint id="navPoint-80" playOrder="79">
+        <navLabel>
+          <text>Jak a kdy se do toho pustit</text>
+        </navLabel>
+        <content src="text/chapter-15.xhtml#chapter-15-sh4" />
+      </navPoint>
+      <navPoint id="navPoint-81" playOrder="80">
+        <navLabel>
+          <text>Skok do říše jemnějších a strategičtějších rozhodnutí</text>
+        </navLabel>
+        <content src="text/chapter-15.xhtml#chapter-15-sh5" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-82" playOrder="81">
+      <navLabel>
+        <text>15 &#124; Jak získat perspektivu ve výšce třiceti tisíc stop: Cíle a záměry</text>
+      </navLabel>
+      <content src="text/chapter-16.xhtml" />
+      <navPoint id="navPoint-83" playOrder="82">
+        <navLabel>
+          <text>Rozsah</text>
+        </navLabel>
+        <content src="text/chapter-16.xhtml#chapter-16-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-84" playOrder="83">
+        <navLabel>
+          <text>Obvyklá podoba</text>
+        </navLabel>
+        <content src="text/chapter-16.xhtml#chapter-16-sh2" />
+      </navPoint>
+      <navPoint id="navPoint-85" playOrder="84">
+        <navLabel>
+          <text>Jak a kdy se do toho pustit</text>
+        </navLabel>
+        <content src="text/chapter-16.xhtml#chapter-16-sh3" />
+      </navPoint>
+      <navPoint id="navPoint-86" playOrder="85">
+        <navLabel>
+          <text>Jak hrát vysokou hru</text>
+        </navLabel>
+        <content src="text/chapter-16.xhtml#chapter-16-sh4" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-87" playOrder="86">
+      <navLabel>
+        <text>16 &#124; Jak získat správnou perspektivu ve výšce čtyřiceti tisíc stop: Vize</text>
+      </navLabel>
+      <content src="text/chapter-17.xhtml" />
+      <navPoint id="navPoint-88" playOrder="87">
+        <navLabel>
+          <text>Rozsah</text>
+        </navLabel>
+        <content src="text/chapter-17.xhtml#chapter-17-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-89" playOrder="88">
+        <navLabel>
+          <text>Obvyklá podoba</text>
+        </navLabel>
+        <content src="text/chapter-17.xhtml#chapter-17-sh2" />
+      </navPoint>
+      <navPoint id="navPoint-90" playOrder="89">
+        <navLabel>
+          <text>Jak a kdy se do toho pustit</text>
+        </navLabel>
+        <content src="text/chapter-17.xhtml#chapter-17-sh3" />
+      </navPoint>
+      <navPoint id="navPoint-91" playOrder="90">
+        <navLabel>
+          <text>Budoucnost je teď</text>
+        </navLabel>
+        <content src="text/chapter-17.xhtml#chapter-17-sh4" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-92" playOrder="91">
+      <navLabel>
+        <text>17 &#124; Jak získat správnou perspektivu ve výšce padesáti tisíc stop: Smysl a hodnoty</text>
+      </navLabel>
+      <content src="text/chapter-18.xhtml" />
+      <navPoint id="navPoint-93" playOrder="92">
+        <navLabel>
+          <text>Smysl</text>
+        </navLabel>
+        <content src="text/chapter-18.xhtml#chapter-18-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-94" playOrder="93">
+        <navLabel>
+          <text>Hodnoty</text>
+        </navLabel>
+        <content src="text/chapter-18.xhtml#chapter-18-sh6" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-95" playOrder="94">
+      <navLabel>
+        <text>18 &#124; Jak získat správnou perspektivu: zpátky v Zuzanině zahrádce</text>
+      </navLabel>
+      <content src="text/chapter-19.xhtml" />
+      <navPoint id="navPoint-96" playOrder="95">
+        <navLabel>
+          <text>Zaměření pozornosti v podnikání</text>
+        </navLabel>
+        <content src="text/chapter-19.xhtml#chapter-19-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-97" playOrder="96">
+        <navLabel>
+          <text>Zuzanina zahrádka – celkový přehled o podniku</text>
+        </navLabel>
+        <content src="text/chapter-19.xhtml#chapter-19-sh2" />
+      </navPoint>
+      <navPoint id="navPoint-98" playOrder="97">
+        <navLabel>
+          <text>Získání osobní perspektivy</text>
+        </navLabel>
+        <content src="text/chapter-19.xhtml#chapter-19-sh10" />
+      </navPoint>
+      <navPoint id="navPoint-99" playOrder="98">
+        <navLabel>
+          <text>Kapitán a velitel</text>
+        </navLabel>
+        <content src="text/chapter-19.xhtml#chapter-19-sh18" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-100" playOrder="99">
+      <navLabel>
+        <text>19 &#124; Aby vše klapalo – i ve skutečném světě</text>
+      </navLabel>
+      <content src="text/chapter-20.xhtml" />
+      <navPoint id="navPoint-101" playOrder="100">
+        <navLabel>
+          <text>Ošemetná záležitost</text>
+        </navLabel>
+        <content src="text/chapter-20.xhtml#chapter-20-sh1" />
+      </navPoint>
+      <navPoint id="navPoint-102" playOrder="101">
+        <navLabel>
+          <text>Jak počítat s propady</text>
+        </navLabel>
+        <content src="text/chapter-20.xhtml#chapter-20-sh2" />
+      </navPoint>
+      <navPoint id="navPoint-103" playOrder="102">
+        <navLabel>
+          <text>Používání nástrojů a triků – práce se systémem</text>
+        </navLabel>
+        <content src="text/chapter-20.xhtml#chapter-20-sh3" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-104" playOrder="103">
+      <navLabel>
+        <text>20 &#124; Závěrem</text>
+      </navLabel>
+      <content src="text/chapter-21.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-105" playOrder="104">
+      <navLabel>
+        <text>Příloha i</text>
+      </navLabel>
+      <content src="text/chapter-22.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-107" playOrder="105">
+      <navLabel>
+        <text>Příloha ii</text>
+      </navLabel>
+      <content src="text/chapter-23.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-109" playOrder="106">
+      <navLabel>
+        <text>Příloha iii</text>
+      </navLabel>
+      <content src="text/chapter-24.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-111" playOrder="107">
+      <navLabel>
+        <text>Příloha iv</text>
+      </navLabel>
+      <content src="text/chapter-25.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-113" playOrder="108">
+      <navLabel>
+        <text>Příloha v</text>
+      </navLabel>
+      <content src="text/chapter-26.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-115" playOrder="109">
+      <navLabel>
+        <text>Příloha vi</text>
+      </navLabel>
+      <content src="text/chapter-27.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-117" playOrder="110">
+      <navLabel>
+        <text>Příloha vii</text>
+      </navLabel>
+      <content src="text/chapter-28.xhtml" />
+    </navPoint>
+    <navPoint id="navpoint-118" playOrder="111">
+      <navLabel>
+        <text>UKÁZKA Z KNIHY Mít vše hotovo: Jak získat kontrolu nad projekty</text>
+      </navLabel>
+      <content src="text/mvh_10_preface.xhtml" />
+    </navPoint>
+  </navMap>
+</ncx>
