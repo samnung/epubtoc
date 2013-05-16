@@ -36,8 +36,7 @@ NCX_HEADER = '''<?xml version="1.0" encoding="utf-8"?>
   </docTitle>
  '''
 
-NCX_FOOTER = '''
-</ncx>'''
+NCX_FOOTER = '''</ncx>'''
 
 
 def errorExit(str, exitCode=None):
@@ -98,12 +97,12 @@ class Toc(object):
 
 		return ol
 
-	def toNCX(self):
+	def toNCX(self, orderNumber = 1):
 
 		navMap = ET.Element('navMap')
 
 		for level in self.levels:
-			level.toNCX(navMap)
+			orderNumber = level.toNCX(navMap, orderNumber)
 
 		return navMap
 
@@ -169,9 +168,9 @@ class TocLevel(object):
 				level.toXHTML(ol)
 
 
-	def toNCX(self, parent):
+	def toNCX(self, parent, orderNumber = 1):
 
-		navPoint = ET.SubElement(parent, 'navPoint')
+		navPoint = ET.SubElement(parent, 'navPoint', {'id' : 'navPoint_' + str(orderNumber), 'playOrder' : str(orderNumber)})
 
 		navLabel = ET.SubElement(navPoint, 'navLabel')
 		text = ET.SubElement(navLabel, 'text')
@@ -179,8 +178,14 @@ class TocLevel(object):
 
 		content = ET.SubElement(navPoint, 'content', {'src' : self.href})
 
+		orderNumber += 1
+
 		for level in self.subLevels:
-			level.toNCX(navPoint)
+			orderNumber = level.toNCX(navPoint, orderNumber)
+
+
+		return orderNumber
+
 
 
 	def addSubLevel(self, level):

@@ -17,11 +17,7 @@ Type into Terminal:
 Or
 
 	python3 epubtoc.py --from xhtml --to ncx nav.xhtml toc.ncx
-	
 
-# !!! Known bugs !!!
-
-- reverse way is not fully functional, in ncx is missing id and order attributes
 
 
 # TODO:
